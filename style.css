@@ -1,0 +1,46 @@
+body {
+  color: white;
+  background-image: url(cartographer.png);
+}
+
+canvas {
+  border: 1px solid white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+button {
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 18px;
+}
+
+input {
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid white;
+  float: right;
+  min-width: 100px;
+}
+
+
+#menuBar {
+  cursor: pointer;
+}
+
+#controlPanel {
+  background-image: url(footer_lodyas.png);
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  display: none;
+}
+
+#simulationPanel {
+  background-image: url(greyWashWall.png);
+}
